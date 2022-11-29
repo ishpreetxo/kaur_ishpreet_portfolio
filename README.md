@@ -8,11 +8,3 @@ Visit the live site [here](www.ishpreetkaur.org).
 * *PHP*
 * *MySQL*
  
-#### Set Up
-1. Clone the repo
-
-    https://github.com/ishpreetxo/kaur_ishpreet_portfolio.git
-
-
-   
-   git clone 
