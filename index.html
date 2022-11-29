@@ -82,6 +82,125 @@
             </div>
         </div>
     </section>
+    <!-- about me section -->
+    <section class="about-me">
+        <div class="container">
+            <p class="section-subtitle">About Me</p>
+            <h2 class="h2 section-title">Know Bit more About Me</h2>
+            <div class="container4">
+                <p class="section-text">
+                    I am a passionate and creative media designer who excels in the fields of graphic design, web design, and video production. I have a strong interest in technology and how it can be used to create innovative and exciting designs. I am always looking for
+                    new ways to push the boundaries of my creativity and I am constantly striving to improve my skills.
+                </p>
+                <figure class="hero-banner2 img-holder has-before" style="--width: 640; --height: 540;">
+                    <img class="aboutmeimg" src=images/aboutme.jpg alt="aboutme image" height="500" width="500">
+                </figure>
+
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section -->
+    <main id="app">
+
+        <Section class="section portfolio" id="MyWork" aria-label="portfolio">
+            <div class="container">
+                <p class="section-subtitle">Portfolio</p>
+                <!-- vue section goes here -->
+
+
+
+
+
+                <!-- components section down below-->
+
+                <article class="portfolioinfo">
+                    <h2 class="h2 section-title">Selected Works</h2>
+                    <nav id="mini-nav">
+                        <ul class="project_display">
+                            <projectdisplay v-for="portfolio in projectData" :portfolio="portfolio"></projectdisplay>
+                        </ul>
+                    </nav>
+                </article>
+            </div>
+
+        </Section>
+        <div class="button">
+            <a href="https://drive.google.com/drive/folders/1wc3kLLvxrlj2wTaHSeBwNWiCnDEacgcG" target="_blank" class="view-button">Click Here and Take a look at my Work </a>
+        </div>
+
+    </main>
+    <!-- vue section ends here -->
+    <!-- SKILL SET -->
+    <section class="section skills has-before" id="skills" aria-label="skills" style="background-image: url('./images/skill_bg.png')">
+        <div class="container">
+            <div class="skills-content">
+                <p class="section-subtitle">Skills</p>
+                <h2 class="h2 section-title">Overall SkillSet</h2>
+                <p class="section-text2">
+                    I have been accomplishing enough with modern Web Development & Designing along with that, I have been quite familiar with 3D Desiging as well. Below are the Skill Set and Software which I am quite familiar and having expertise in using them.
+                </p>
+                <ul class="skills-list">
+                    <li class="skills-item2">
+                        <div class="wrapper">
+                            <h3 class="skill-title">HTML & CSS</h3>
+                        </div>
+                        <div class="wrapper">
+                            <h3 class="skill-title">JavaScript</h3>
+                        </div>
+                        <div class="wrapper">
+                            <h3 class="skill-title">3D Designing</h3>
+                        </div>
+                        <div class="wrapper">
+                            <h3 class="skill-title">Adobe Photoshop</h3>
+                        </div>
+                        <div class="wrapper">
+                            <h3 class="skill-title">Adobe Illustrator</h3>
+                        </div>
+                        <div class="wrapper">
+                            <h3 class="skill-title">Adobe After Effects</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- contact page-->
+    <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+            <div class="contact-content">
+                <p class="section-subtitle">Contact</p>
+                <h2 class="h2 section-title">Get In Touch</h2>
+                <p class="section-text">
+                    Please fill out the form on this section to contact with me.
+                </p>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                        <address class="contact-link">London, Ontario</address>
+                    </li>
+                    <li class="contact-item">
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                        <a href="mailto:contactme@ishpreetkaur.org
+                        " class="contact-link">contactme@ishpreetkaur.org
+                        </a>
+                    </li>
+                    <li class="contact-item">
+                        <ion-icon name="globe-outline" aria-hidden="true"></ion-icon>
+                        <a href="www.domain.com" class="contact-link">www.ishpreetkaur.org</a>
+                    </li>
+                </ul>
+            </div>
+            <form action="send.php" class="contact-form">
+                <input type="text" name="name" aria-label="name" placeholder="Name" required class="input-field">
+                <input type="email" name="email_address" aria-label="email" placeholder="Email" required class="input-field">
+                <textarea name="message" aria-label="message" placeholder="Message" required class="input-field"></textarea>
+                <button type="submit" class="submit-btn">
+          <span class="span">Submit</span>
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </button>
+            </form>
+        </div>
+    </section>
     <!-- footer-->
     <footer class="footer">
         <div class="container">
