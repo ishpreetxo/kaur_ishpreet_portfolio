@@ -20,13 +20,6 @@ export default {
        
     </div>
     </li>
-    `,
-
-    // methods: {
-    //     loadprojectData() {
-    //         // pass the indvidual portfolio object back to thhe main vw instance 
-    //         this.$emit('openlb', this.portfolio);
-    //     }
-    // }
+    `
 
 }

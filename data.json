@@ -1,0 +1,55 @@
+{
+    "project1": {
+        "project_name": "Roku Build ",
+        "project_info": "The Flashback app is part of the Roku streaming service. Subscribers can use this app to access three separate flashback features; movies, television (tv) and music. Each of these three sections are comprised exclusively of entertainment from 1950, 1960, 1970, 1980, and 1990 respectively.",
+        "project_image": "project.svg",
+        "id": "1",
+        "built_with": "Prototyping Stage, Adobe XD"
+
+    },
+
+    "project2": {
+        "project_name": "Hackathon - Brand Built",
+        "project_info": "HouseCom™ ThermoSecurity™ System is a fully digital, hardwired, and wireless (WiFi,Bluetooth) enabled home personal and secure environment control system. It was a group project which was completed within 24 hours.",
+        "project_image": "project.svg",
+        "id": "2",
+        "built_with": "Cinema4d, Photoshop, Illustrator"
+    },
+
+    "project3": {
+        "project_name": "Brand-Mashup",
+        "project_info": "For this brand mashup, we were given two brands which are completely different from one another. My project partner and I got Heineken Beer and Pampers Diapers. The best mashup we could make was Beer for Babies and Beer for Pregnant Women. Through our branding, we showed how and why Pampers Beer is a great drink for babies.",
+        "project_image": "project.svg",
+        "id": "3",
+        "built_with": "Adobe Photoshop, Cinema 4D, After Effects"
+
+    },
+    "project4": {
+        "project_name": "Make-Up Brand Built ",
+        "project_info": "For This Brand We were given a name for make-up brand and we had to create Complete branding for the Brand Name Seven from Scratch, My role in this Project was to design overall branding and It's Commercial Videos.",
+        "project_image": "project.svg",
+        "id": "4",
+        "built_with": "Adobe Photoshop, Cinema 4D, After Effects"
+
+    },
+    "project5": {
+        "project_name": "3D Morphing Commericial",
+        "project_info": "For This Project, we were given free choice of choosing any theme for the commerical ad and create a 3d product transiting commerical out of it, For this project I came up with Toy store Theme, in which the 3D Toys model will be changing as per the time frames and will be replacing a new model.",
+        "project_image": "project.svg",
+        "id": "5",
+        "built_with": "Cinema 4D And After-Effects"
+
+    },
+    "project6": {
+        "project_name": "SportsNet - Video Info",
+        "project_info": "As an end of term project, we were asked to create a video intro that could be used for a sports network. All the modelling, texturing, and animation was done by myself in Cinema4D. I edited the video in Premier Pro and After Effects. ",
+        "project_image": "project.svg",
+        "id": "6",
+        "built_with": "Cinema 4D, After-Effects"
+
+    }
+
+
+
+
+}
