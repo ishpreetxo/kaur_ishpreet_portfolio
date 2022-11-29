@@ -1,0 +1,30 @@
+.view-button {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+    background-color: var(--theme-color);
+    color: black;
+    font-weight: 700;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+.view-button:hover {
+    background-color: var(--black);
+    color: var(--theme-color);
+    filter: drop-shadow(22px);
+    transition: all 0.2s linear 0s;
+}
+
+.projectname {
+    margin: 0px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
