@@ -1,0 +1,7 @@
+Colors:
+
+
+
+ red shade: #E63946
+ whie shade: #F1FAEE
+blue shade : #1D3557
