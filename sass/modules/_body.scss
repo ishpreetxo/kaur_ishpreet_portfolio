@@ -374,6 +374,13 @@
     background-color: var(--cultured);
 }
 
+.errorinput {
+    margin: 10px;
+    color: var(--theme-color);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 .contact-list {
     margin-block: 40px 50px;
 }
@@ -400,7 +407,8 @@
     font-family: var(--ff-poppins);
 }
 
-.input-field {
+.input,
+.email {
     color: var(--black);
     font-family: var(--ff-poppins);
     font-size: 1.3rem;
@@ -416,6 +424,17 @@
     border-color: var(--black_30);
 }
 
+.onsuccess {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: rgb(30, 224, 30);
+    color: black;
+}
+
 textarea.input-field {
     resize: vertical;
     min-height: 45px;
@@ -429,7 +448,7 @@ textarea.input-field {
     justify-items: center;
 }
 
-.submit-btn {
+.button {
     background-color: var(--theme-color);
     color: var(--white);
     width: 100%;
@@ -442,15 +461,15 @@ textarea.input-field {
     transition: var(--transition);
 }
 
-.submit-btn:hover {
+.button:hover {
     background-color: var(--black);
 }
 
-.submit-btn ion-icon {
+.button ion-icon {
     transition: var(--transition);
 }
 
-.submit-btn:hover ion-icon {
+.button:hover ion-icon {
     transform: rotate(-45deg);
 }
 
