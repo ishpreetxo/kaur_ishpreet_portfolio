@@ -1,6 +1,6 @@
 # MEDIA DESIGNER PORTFOLIO WEBSITE
 *Hey There, I am Ishpreet Kaur and this is my Design Portfolio.*
-*Visit the live site [here](www.ishpreetkaur.org).*
+*Visit the live site www.ishpreetkaur.org*
 
 ## Installation
 *Clone the repository and open it in your browser. Your device must have MAMP/WAMP installed to run this project.*
