@@ -7,10 +7,10 @@
 
     require_once("config.php");
 
-    $label = "name";
+    $label = "project_name";
 
     //Return all results
-    $getContent = getAll('db_portfolio');
+    $getContent = getAll('ik_portfolio');
     
     if(!is_string($getContent)) {
         //Working object
