@@ -322,6 +322,24 @@
     margin-top: 20px;
 }
 
+.demoreel {
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: var(--theme-color);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+    // text-decoration: 2px underline;
+}
+
+.demoreel:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: 25ms;
+}
+
 //portfolio css
 // skills
 .skills-banner {

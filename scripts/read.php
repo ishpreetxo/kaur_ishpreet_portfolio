@@ -1,18 +1,7 @@
 <?php
     ini_set('display_errors', 1);
     error_reporting(E_ALL);
-
-    //This is for testing purposes
-    //$tbl = "tbl_marvel";
-    //getAll($tbl);
-
-    /*$tbl = "tbl_marvel";
-    $col = "marvel_id";
-    $id = "1";
-    getSingle($tbl, $col, $id);
-    */
-
-    //Get all of something
+    
     function getAll($tbl) {
         include("connect.php");
         $queryAll = "SELECT * FROM {$tbl}";

@@ -45,7 +45,7 @@ import { SendMail } from "./components/mailer.js";
     createApp({
         created() {
             // ALWAYS get your remote data here
-            fetch('./data.json')
+            fetch('./scripts/json.php')
                 .then(res => res.json())
                 .then(data => this.projectData = data)
                 .catch(error => console.error(error));

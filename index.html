@@ -95,6 +95,8 @@
                 <figure class="hero-banner2 img-holder has-before" style="--width: 640; --height: 540;">
                     <img class="aboutmeimg" src=images/aboutme.jpg alt="aboutme image" height="500" width="500">
                 </figure>
+                <a class="demoreel" href="https://www.youtube.com/watch?v=cwpOLrD2T8Q" target="_blank">Click Here and Take a Look at My Demo Reel</a>
+
 
             </div>
         </div>
@@ -124,7 +126,7 @@
             </div>
 
         </Section>
-        <div class="button">
+        <div class="button1">
             <a href="https://drive.google.com/drive/folders/1wc3kLLvxrlj2wTaHSeBwNWiCnDEacgcG" target="_blank" class="view-button">Click Here and Take a look at my Work </a>
         </div>
 
@@ -193,7 +195,7 @@
             <form action="send.php" method="POST" id="mail-form" class="contactpage">
                 <ul>
                     <li>
-                        <input class="input" v-model="form.firstname" ref="fname" type="text" name="name" id="firstname" name="firstname" aria-label="name" placeholder="Name" required class="input-field">
+                        <input class="input" v-model="form.firstname" ref="fname" type="text" name="name" id="firstname" name="firstname" aria-label="name" placeholder="Name">
 
                         <div class="errorinput" v-if=" errorFirstname">
                             <p>There might be a error in your first name</p>
@@ -209,7 +211,7 @@
                         <div class="errorinput" v-if="errorinput">
                             <p>There is a error here, Kindly Recheck.</p>
                         </div>
-                        <textarea name="message" aria-label="message" placeholder="Message" class="input" v-model="form.text" ref="message" name="message" id="message" required class="input-field"></textarea>
+                        <textarea name="message" aria-label="message" placeholder="Message" class="input" v-model="form.text" ref="message" id="message"></textarea>
                     </li>
 
                     <button @click.prevent="processMail" type="submit" class="button" value="Send Mail">
@@ -219,6 +221,7 @@
                     <div class="onsuccess" v-if="successmsg">
                         <p class="sent">Thankyou for Sending Us Your Message, We Will be right back to you </p>
                     </div>
+                </ul>
             </form>
         </div>
     </section>
