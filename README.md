@@ -25,4 +25,4 @@
 ## Contact
 *Get in touch with me at contactme@ishpreetkaur.org*
 
-Thank you for taking the time to explore this repository! :)
+## Thank you for taking the time to explore this repository! :)
