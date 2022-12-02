@@ -190,14 +190,35 @@
                     </li>
                 </ul>
             </div>
-            <form action="send.php" class="contact-form">
-                <input type="text" name="name" aria-label="name" placeholder="Name" required class="input-field">
-                <input type="email" name="email_address" aria-label="email" placeholder="Email" required class="input-field">
-                <textarea name="message" aria-label="message" placeholder="Message" required class="input-field"></textarea>
-                <button type="submit" class="submit-btn">
-          <span class="span">Submit</span>
-          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-        </button>
+            <form action="send.php" method="POST" id="mail-form" class="contactpage">
+                <ul>
+                    <li>
+                        <input class="input" v-model="form.firstname" ref="fname" type="text" name="name" id="firstname" name="firstname" aria-label="name" placeholder="Name" required class="input-field">
+
+                        <div class="errorinput" v-if=" errorFirstname">
+                            <p>There might be a error in your first name</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="errorinput" v-if="errormail">
+                            <p>There might be error in your email</p>
+                        </div>
+                        <input class="input" id="email" v-model="form.email" ref="email" type="email" name="email_address" aria-label="email" placeholder="Email" required class="input-field">
+                    </li>
+                    <li>
+                        <div class="errorinput" v-if="errorinput">
+                            <p>There is a error here, Kindly Recheck.</p>
+                        </div>
+                        <textarea name="message" aria-label="message" placeholder="Message" class="input" v-model="form.text" ref="message" name="message" id="message" required class="input-field"></textarea>
+                    </li>
+
+                    <button @click.prevent="processMail" type="submit" class="button" value="Send Mail">
+                    <span class="span">Submit</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </button>
+                    <div class="onsuccess" v-if="successmsg">
+                        <p class="sent">Thankyou for Sending Us Your Message, We Will be right back to you </p>
+                    </div>
             </form>
         </div>
     </section>
